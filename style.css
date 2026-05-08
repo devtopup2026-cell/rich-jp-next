@@ -51,8 +51,12 @@ color:#ff6600;
 }
 
 .hero{
-height:85vh;
-background:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600') center/cover;
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600');
+background-size:cover;
+background-position:center;
 display:flex;
 align-items:center;
 padding:0 8%;
