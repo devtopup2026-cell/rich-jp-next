@@ -11,13 +11,16 @@ color:#222;
 }
 
 header{
-background:#111;
-padding:12px 5%;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:15px 6%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-position:sticky;
-top:0;
+background:rgba(0,0,0,0.75);
+backdrop-filter:blur(8px);
 z-index:1000;
 }
 
@@ -27,21 +30,21 @@ align-items:center;
 }
 
 .logo img{
-height:45px;
+height:60px;
 width:auto;
-display:block;
+object-fit:contain;
+mix-blend-mode:screen;
 }
 
 nav{
 display:flex;
-align-items:center;
-gap:25px;
+gap:30px;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-font-size:16px;
+font-size:17px;
 font-weight:600;
 transition:0.3s;
 }
@@ -51,15 +54,18 @@ color:#ff6600;
 }
 
 .hero{
-height:90vh;
+height:100vh;
+padding-top:90px;
 background:
 linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
 url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600');
+
 background-size:cover;
 background-position:center;
 display:flex;
 align-items:center;
-padding:0 8%;
+padding-left:8%;
+padding-right:8%;
 }
 
 .hero-text{
