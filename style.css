@@ -12,23 +12,42 @@ color:#222;
 
 header{
 background:#111;
-padding:15px 8%;
+padding:12px 5%;
 display:flex;
 justify-content:space-between;
 align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
 }
 
 .logo{
-color:#ff6600;
-font-size:28px;
-font-weight:bold;
+display:flex;
+align-items:center;
+}
+
+.logo img{
+height:55px;
+width:auto;
+display:block;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:25px;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin-left:20px;
 font-size:16px;
+font-weight:600;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ff6600;
 }
 
 .hero{
