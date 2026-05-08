@@ -1,0 +1,1 @@
+console.log("RICH JP NEXT BUILD MART");
