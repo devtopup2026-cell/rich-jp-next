@@ -330,10 +330,13 @@ font-size:14px;
 color:#aaa;
 }
 
-.brand-sub{
+.brand-title{
 text-align:center;
-color:#555;
 margin-bottom:50px;
+}
+
+.brand-sub{
+color:#666;
 font-size:18px;
-font-weight:500;
+margin-top:10px;
 }
