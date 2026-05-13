@@ -224,12 +224,6 @@ padding:80px 8%;
 background:#f7f7f7;
 }
 
-.brand-sub{
-text-align:center;
-color:#777;
-margin-top:-25px;
-margin-bottom:40px;
-}
 
 .brands h2{
 text-align:center;
@@ -334,4 +328,11 @@ text-align:center;
 padding:20px;
 font-size:14px;
 color:#aaa;
+}
+
+.brand-sub{
+text-align:center;
+color:#777;
+margin-top:-25px;
+margin-bottom:40px;
 }
