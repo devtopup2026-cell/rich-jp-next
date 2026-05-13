@@ -332,7 +332,9 @@ color:#aaa;
 
 .brand-sub{
 text-align:center;
-color:#777;
-margin-top:-25px;
-margin-bottom:40px;
+color:#555;
+margin-top:-35px;
+margin-bottom:50px;
+font-size:18px;
+font-weight:500;
 }
