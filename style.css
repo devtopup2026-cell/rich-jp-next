@@ -221,7 +221,14 @@ font-size:36px;
 
 .brands{
 padding:80px 8%;
-background:white;
+background:#f7f7f7;
+}
+
+.brand-sub{
+text-align:center;
+color:#777;
+margin-top:-25px;
+margin-bottom:40px;
 }
 
 .brands h2{
@@ -245,7 +252,7 @@ padding:30px;
 display:flex;
 justify-content:center;
 align-items:center;
-height:180px;
+height:140px;
 transition:0.3s;
 box-shadow:0 5px 15px rgba(0,0,0,0.05);
 }
@@ -253,6 +260,7 @@ box-shadow:0 5px 15px rgba(0,0,0,0.05);
 .brand-item:hover{
 transform:translateY(-5px);
 box-shadow:0 10px 25px rgba(0,0,0,0.12);
+border-color:#ff6600;
 }
 
 .brand-item img{
